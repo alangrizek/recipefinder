@@ -12,7 +12,6 @@ class Recipe
 
   base_uri "http://#{hostport}/api"
   default_params key: ENV["FOOD2FORK_KEY"]
-  #default_params key: '5dd3e01252b914e86d945974d90de0b2'
   format :json
 
   def self.for term
